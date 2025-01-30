@@ -27,7 +27,6 @@ Nuestra aplicación móvil para el gimnasio está diseñada para mejorar la expe
 ## 📊 Datos del Proyecto
 [🔝 Volver a la Tabla de Contenidos](#-tabla-de-contenidos)
 
-
 <p align="center">
   
 ```mermaid
