@@ -27,23 +27,50 @@ Nuestra aplicación móvil para el gimnasio está diseñada para mejorar la expe
 ## 📊 Datos del Proyecto
 [🔝 Volver a la Tabla de Contenidos](#-tabla-de-contenidos)
 
-| Funcionalidad                       | Descripción                                                                 |
-|-------------------------------------|-----------------------------------------------------------------------------|
-| 🗓️ Reservar clases                  | Permite a los usuarios reservar clases y sesiones de entrenamiento personal.|
-| 🎥 Acceso a tutoriales              | Proporciona acceso a tutoriales y videos de ejercicios.                     |
-| 📈 Seguimiento de entrenamientos    | Permite realizar un seguimiento de los entrenamientos y progreso.           |
-| 🔔 Notificaciones personalizadas    | Envía notificaciones y recordatorios personalizados a los usuarios.         |
+
+<p align="center">
+  
+```mermaid
+erDiagram
+        CLASES {
+                int id
+                string nombre
+                string descripcion
+                datetime fecha
+        }
+        USUARIOS {
+                int id
+                string nombre
+                string email
+        }
+        TUTORIALES {
+                int id
+                string titulo
+                string descripcion
+                string url
+        }
+        NOTIFICACIONES {
+                int id
+                string mensaje
+                datetime fecha
+        }
+        USUARIOS ||--o{ CLASES: reserva
+        USUARIOS ||--o{ TUTORIALES: accede
+        USUARIOS ||--o{ NOTIFICACIONES: recibe
+```
+
+</p>
+
 
 ## 🔗 Enlaces
 
 [🔝 Volver a la Tabla de Contenidos](#-tabla-de-contenidos)
 
-
 ### 📹 Videos de Ejercicios
 <p align="center">
-    <a href="https://www.youtube.com/watch?v=CRqZKxKKEAw">
-        <img src="https://img.youtube.com/vi/CRqZKxKKEAw/0.jpg" alt="Rutina de bíceps con mancuernas">
-    </a>
-    <br>
-    <strong>Rutina de bíceps con mancuernas</strong>
+        <a href="https://www.youtube.com/watch?v=CRqZKxKKEAw">
+                <img src="https://img.youtube.com/vi/CRqZKxKKEAw/0.jpg" alt="Rutina de bíceps con mancuernas">
+        </a>
+        <br>
+        <strong>Rutina de bíceps con mancuernas</strong>
 </p>
