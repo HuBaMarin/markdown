@@ -84,8 +84,8 @@ erDiagram
 
 ### 📹 Videos de Ejercicios
 <p align="center">
-        <a href="https://www.youtube.com/watch?v=k9NndvHyUvw">
-                <img src="vgcvNY5BA7w_1280x720.jpg" alt="Rutina de bíceps con mancuernas">
+        <a href="https://www.youtube.com/watch?v=vgcvNY5BA7w">
+                <img src="pildorasinformaticas_1280x720.jpg" alt="Curso de kotlin Píldoras Informáticas">
         </a>
         <br>
         <strong>Curso de Kotlin</strong>
